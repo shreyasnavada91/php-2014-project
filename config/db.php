@@ -1,0 +1,2 @@
+<?php // Legacy MySQL config
+$db_host='localhost'; $db_user='root'; $db_pass='password'; ?>
