@@ -1,0 +1,1 @@
+<?php $db_config = array('host' => 'localhost', 'username' => 'root', 'password' => 'password', 'database' => 'company_db'); ?>
