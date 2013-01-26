@@ -1,0 +1,1 @@
+<?php require_once 'models/User.php'; class UserController { private $user; public function __construct() { $this->user = new User(); } public function create() { if ($_POST) { $this->user->setName($_POST['name']); $this->user->setEmail($_POST['email']); if ($this->user->save()) { header('Location: index.php'); } } } public function listAll() { return User::getAll(); } } ?>
