@@ -1,0 +1,1 @@
+<?php\nclass Test1 { public function testFoo() { } }\n
