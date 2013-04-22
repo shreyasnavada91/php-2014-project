@@ -1,0 +1,1 @@
+<?php\nnamespace App\\Lib;\nclass Util1 { public static function helper() { } }\n
