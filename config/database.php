@@ -1,6 +1,7 @@
-<?php // MySQLi config
+<?php // PDO config
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'app');
 class Database {
-    private $mysqli;
-    public static function getInstance() { }
+    private $pdo;
 }
 ?>

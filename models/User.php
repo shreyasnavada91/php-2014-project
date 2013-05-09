@@ -1,6 +1,5 @@
-<?php // User with MySQLi
+<?php // User with PDO
 class User {
-    private $id, $name, $email;
     public function save() { $db = Database::getInstance(); }
 }
 ?>
