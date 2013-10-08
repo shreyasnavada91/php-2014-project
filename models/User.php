@@ -1,5 +1,6 @@
-<?php // User with PDO
+<?php // User with namespaces
+namespace App\Models;
 class User {
-    public function save() { $db = Database::getInstance(); }
+    public function save(): bool { return true; }
 }
 ?>

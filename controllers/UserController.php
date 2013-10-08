@@ -1,3 +1,4 @@
-<?php // User controller
-class UserController extends Controller { }
+<?php // Controller with type hints
+namespace App\Controllers;
+class UserController { }
 ?>
